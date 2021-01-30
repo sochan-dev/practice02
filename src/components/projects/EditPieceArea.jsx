@@ -11,7 +11,7 @@ const EditPieceArea = (props) => {
     
     console.log("マージテスト")
     //test001のマージです。
-    console.log('コミットその２')
+    
     const piece = props.piece
     const setPiece = props.setPiece
     const tabSwitch = props.switch
