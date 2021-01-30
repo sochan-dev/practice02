@@ -8,6 +8,10 @@ EditPieceAreaに渡すsetPieceプロップスの中の関数は、useCallback化
 (useCallback化はイベントハンドラに渡すためにする、その役目を担っているのはEditPieceAreaだから。)
 */
 const EditPieceArea = (props) => {
+    
+    console.log("マージテスト")
+    //test001のマージです。
+
     const piece = props.piece
     const setPiece = props.setPiece
     const tabSwitch = props.switch
