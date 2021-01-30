@@ -1,0 +1,49 @@
+.spacer--extra-extra-small {
+  height: 12px;
+}
+.spacer--extra-small {
+  height: 12px;
+}
+.spacer--small {
+  height: 20px;
+}
+.spacer--medium {
+  height: 32px;
+}
+.c-main {
+  padding: 0;
+}
+.section-wrap-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.section-wrap-left {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border: 1px solid pink;
+}
+.child-multi-content {
+  width: 45%;
+  margin: 0 1rem;
+}
+#editPieceArea {
+  width: 20%;
+  margin-left: 1.5%;
+  margin-right: 2%;
+}
+#showPuzzleArea {
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid black;
+  height: 85vh;
+  width: 75%;
+  margin-right: 1.5%;
+}
+.test {
+  background-color: aqua;
+  border: 1px solid black;
+  width: 20%;
+}
